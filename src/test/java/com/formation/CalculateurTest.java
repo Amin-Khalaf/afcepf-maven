@@ -24,5 +24,10 @@ public class CalculateurTest {
 	public void multTest() {
 		assertEquals(6, calcul.multiply(2, 3), "Multiply not OK");
 	}
+	
+	@Test
+	public void divTest() {
+		assertEquals(5, calcul.div(15, 3), "Divsion not OK");
+	}
 
 }
